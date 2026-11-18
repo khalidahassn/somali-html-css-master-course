@@ -1,0 +1,73 @@
+CSS — Taariikh, Ujeeddo iyo Xog Muhiim ah
+1. Waa maxay CSS?
+CSS (Cascading Style Sheets) waa luuqad lagu qeexo muuqaalka HTML: midabbada, cabbirrada qoraalka, kala-fogaanshaha, layouts iyo sida boggu ula qabsado shaashado kala duwan.
+2. Taariikhda CSS
+- 1994: Håkon Wium Lie wuxuu soo jeediyay fikradda CSS si content-ka iyo design-ka loo kala saaro.
+- 1996: W3C wuxuu soo saaray CSS Level 1 (CSS1).
+- 1998: CSS Level 2 (CSS2) ayaa la daabacay.
+- 2011: CSS 2.1 wuxuu noqday W3C Recommendation.
+- 2000-meeyadii ilaa maanta: CSS waxaa loo horumariyaa modules kala duwan, sida Selectors, Flexbox, Grid iyo Media Queries; ma jiro hal heer oo rasmi ah oo la yidhaahdo “CSS3” oo wada daboolaya dhammaan CSS.
+3. Maxaa CSS loo isticmaalaa?
+1. In bogga loo sameeyo midab iyo fonts qurux badan.
+2. In la habeeyo margin, padding iyo borders.
+3. In layouts loo sameeyo Flexbox iyo Grid.
+4. In website-ku noqdo responsive (mobile, tablet iyo desktop).
+5. In la sameeyo hover effects, transitions iyo animations.
+6. In la ilaaliyo design isku mid ah bogag badan iyadoo la isticmaalayo stylesheet dibadeed.
+4. Saddexda hab ee CSS loo qoro
+- Inline CSS: style attribute gudaha HTML element.
+- Internal CSS: <style> gudaha HTML document.
+- External CSS: Fayl .css gaar ah oo HTML lala xiriiriyo; habkan ayaa ku habboon projects badan.
+5. Tusaale HTML + CSS
+index.html
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Tusaale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Baro CSS</h1>
+    <p>CSS wuxuu qurxiyaa HTML.</p>
+    <a href="#">Bilow barashada</a>
+  </main>
+</body>
+</html>
+style.css
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f8f8;
+  color: #173333;
+}
+.card {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 32px;
+  background: white;
+  border-radius: 12px;
+}
+h1 { color: #008080; }
+a { color: #006666; }
+@media (max-width: 640px) {
+  .card { margin: 16px; padding: 20px; }
+}
+6. Erayo muhiim ah
+- Selector: Qaybta HTML ee la dooranayo (h1, .card, #id).
+- Property: Waxa la beddelayo (color, margin).
+- Value: Qiimaha (#008080, 20px).
+- Cascade: Xeerarka go'aamiya style-ka shaqaynaya marka xeerar is dul saaran yihiin.
+- Specificity: Mid ka mid ah qodobbada lagu kala hormariyo selectors-ka.
+- Media Query: Xeer CSS oo style-ka la waafajiya xaaladaha sida ballaca shaashadda.
+7. Su'aalo is-hubin
+1. Yaa soo jeediyay CSS, goormase?
+2. Maxay ku kala duwan yihiin Flexbox iyo Grid?
+3. Waa maxay faa'iidada external stylesheet?
+8. Ilaha waxbarashada
+- MDN — CSS
+- W3C — CSS
+- W3C — CSS Snapshot
