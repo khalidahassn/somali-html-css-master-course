@@ -1,0 +1,2 @@
+.container { width: min(100% - 2rem, 1100px); margin-inline: auto; }
+@media (min-width: 768px) { .layout { display: grid; grid-template-columns: 1fr 2fr; } }

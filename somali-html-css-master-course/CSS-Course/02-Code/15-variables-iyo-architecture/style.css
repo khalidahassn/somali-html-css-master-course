@@ -1,0 +1,2 @@
+ :root { --primary: #008080; --space: 1rem; }
+.btn { background: var(--primary); padding: var(--space); }
