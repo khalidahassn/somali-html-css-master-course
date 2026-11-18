@@ -1,0 +1,54 @@
+HTML — Taariikh, Ujeeddo iyo Xog Muhiim ah
+1. Waa maxay HTML?
+HTML (HyperText Markup Language) waa luuqadda calaamadeynta ee lagu dhiso qaab-dhismeedka bogagga webka. HTML ma aha luuqad programming ah; waxay browser-ka u sheegtaa qaybaha bogga sida cinwaannada, qoraallada, sawirrada, links-ka iyo forms-ka.
+2. Taariikhda HTML
+- 1989–1990: Tim Berners-Lee wuxuu CERN ka bilaabay fikradda World Wide Web, wuxuuna sameeyay aasaaska HTML.
+- 1991: Waxaa la faafiyay sharaxaad hore oo ku saabsan HTML tags.
+- 1995: HTML 2.0 waxaa loo daabacay heer farsamo (RFC 1866).
+- 1997: HTML 3.2 iyo HTML 4.0 ayaa la soo saaray.
+- 1999: HTML 4.01 ayaa la daabacay.
+- 2014: HTML5 wuxuu noqday W3C Recommendation.
+- Maanta: HTML waxaa loo horumariyaa sidii HTML Living Standard oo WHATWG maamusho; ma aha hal nooc oo mar keliya dhammaada.
+3. Maxaa HTML loo isticmaalaa?
+1. In lagu sameeyo qaab-dhismeedka website.
+2. In lagu qoro headings, paragraphs iyo lists.
+3. In lagu daro sawirro, cod iyo muuqaal.
+4. In lagu sameeyo links iyo navigation.
+5. In lagu dhiso forms xog lagu geliyo.
+6. In la isticmaalo semantic elements si boggu u noqdo mid la fahmi karo oo accessibility fiican leh.
+4. HTML sidee ayuu ula shaqeeyaa CSS iyo JavaScript?
+- HTML: Qaab-dhismeedka iyo macnaha content-ka.
+- CSS: Midab, font, spacing iyo layout.
+- JavaScript: Isdhexgal iyo dhaqdhaqaaq ku dhisan logic.
+5. Tusaale HTML
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boggeyga Koowaad</title>
+</head>
+<body>
+  <header>
+    <h1>Ku soo dhowow!</h1>
+  </header>
+  <main>
+    <p>Waxaan baranayaa HTML.</p>
+    <a href="https://developer.mozilla.org/">Wax badan baro</a>
+  </main>
+</body>
+</html>
+6. Qodobo muhiim ah
+- <h1> waa cinwaan muhiim ah; <p> waa paragraph.
+- <a> wuxuu sameeyaa link; <img> wuxuu muujiyaa sawir.
+- <form> wuxuu ururiyaa input; xog dirista iyo kaydinteedu waxay u baahan karaan server.
+- Isticmaal alt marka aad sawir ku dartid, iyo label marka aad form samaynayso.
+- HTML waxa uu ka shaqeeyaa browser-yada waaweyn, waxaana muhiim ah in la tijaabiyo bogga.
+7. Su'aalo is-hubin
+1. Yaa hormuud u ahaa abuurista HTML?
+2. Maxay ku kala duwan yihiin HTML iyo CSS?
+3. Maxay faa'iido u leedahay semantic HTML?
+8. Ilaha waxbarashada
+- MDN — HTML
+- WHATWG — HTML Living Standard
+- W3C — HTML5
